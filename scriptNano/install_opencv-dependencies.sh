@@ -50,8 +50,8 @@ echo " Please apply the patch to the following files '/usr/local/cuda/include/cu
 
 echo "** Download opencv-3.4.2, please feel free to modify the script if you desire another version"
 cd ~
-get https://github.com/opencv/opencv/archive/3.4.2.zip -O opencv-3.4.2.zip
-get https://github.com/opencv/opencv_contrib/archive/3.4.2.zip -O opencv_contrib-3.4.2.zip
+wget https://github.com/opencv/opencv/archive/3.4.2.zip -O opencv-3.4.2.zip
+wget https://github.com/opencv/opencv_contrib/archive/3.4.2.zip -O opencv_contrib-3.4.2.zip
 
 unzip opencv-3.4.2.zip
 unzip opencv_contrib-3.4.2.zip
